@@ -26,6 +26,9 @@ class Authentication(TokenObtainPairView):
             'test': 'another data'
         }
 
+        """
+            put token under httponly cookie
+        """
 
         return Response({
             'status': 'success',
