@@ -20,7 +20,7 @@ Default Role will be Admin and Superadmin.
 
 ## Access Setup in this repo
 
-Account management viewset only can be accessed if account's role has "Account Management" permission
+Account management viewset only can be accessed if account's role has "Account Management" permission. And
 Role management viewset only can be accessed if account's role has "Super" permission
 
 
