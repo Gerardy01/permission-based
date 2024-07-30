@@ -21,7 +21,7 @@ Default Role will be Admin and Superadmin.
 ## Access Setup in this repo
 
 Account management viewset only can be accessed if account's role has "Account Management" permission. And
-Role management viewset only can be accessed if account's role has "Super" permission
+Role management viewset only can be accessed if account's role has "Super Permission" permission
 
 
 ## how to run
@@ -36,6 +36,40 @@ venv/Scripts/activate <for windows>
 
 python manage.py install -r requirements.txt
 python manage.py runserver
+```
+
+## Api list
+
+**auth**
+
+Login API
+/api/login/ POST
+
+**account management**
+
+Get all user API
+/api/user/ GET
+
+Get own account info
+/api/user/get-info GET
+
+Create User
+/api/user/ POST
+
+Edit own account
+/api/user/edit/ PUT
+
+**role management**
+
+Get all role
+/api/user/role GET
+
+Create new role
+/api/user/role/ POST
+
+
+
+For payload details please check Postman collection
 
 
 
